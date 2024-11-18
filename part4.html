@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0"/>
+    <title>Parte 4 Lab 10</title>
+  </head>
+  <body>
+  </body>
+    <script>
+
+     let montoCompra = prompt('Ingrese el monto de su compra:');
+       montoCompra = parseInt(montoCompra);
+       montoFinal= 0;
+
+       if(montoCompra>100) {
+        montoFinal = montoCompra - (montoCompra * 0.1);
+        console.log(`Total a pagar con descuento: ${montoFinal}`)}
+
+        else {
+          montoFinal= montoCompra;
+          console.log(`Total a pagar: ${montoFinal}`)}
+
+    </script>
+
+
+</html>
