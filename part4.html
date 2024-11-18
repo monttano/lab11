@@ -10,18 +10,9 @@
   </body>
     <script>
 
-     let montoCompra = prompt('Ingrese el monto de su compra:');
-       montoCompra = parseInt(montoCompra);
-       montoFinal= 0;
-
-       if(montoCompra>100) {
-        montoFinal = montoCompra - (montoCompra * 0.1);
-        console.log(`Total a pagar con descuento: ${montoFinal}`)}
-
-        else {
-          montoFinal= montoCompra;
-          console.log(`Total a pagar: ${montoFinal}`)}
-
+      let numero = Math.floor(Math.random()* 10) + 1;  
+      console.log("El número generado es: " + numero);
+        
     </script>
 
 
